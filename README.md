@@ -1,6 +1,7 @@
 # NEXONGothic
 
-https://webfontworld.github.io/NEXONGothic/NEXONLv1Gothic.css
+https://webfontworld.github.io/NEXONGothic/NEXONLv1Gothic.css<br>
+https://webfontworld.github.io/NEXONGothic/NEXONLv1Gothic.png
 
 <pre>
 @font-face {
@@ -27,7 +28,8 @@ https://webfontworld.github.io/NEXONGothic/NEXONLv1Gothic.css
 </pre>
 
 
-https://webfontworld.github.io/NEXONGothic/NEXONLv2Gothic.css
+https://webfontworld.github.io/NEXONGothic/NEXONLv2Gothic.css<br>
+https://webfontworld.github.io/NEXONGothic/NEXONLv2Gothic.png
 
 <pre>
 @font-face {
