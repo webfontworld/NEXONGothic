@@ -61,3 +61,16 @@ https://webfontworld.github.io/NEXONGothic/NEXONLv2Gothic.png
     font-display: swap;
 }
 </pre>
+
+
+https://webfontworld.github.io/NEXONGothic/NEXONBazzi.css
+https://webfontworld.github.io/NEXONGothic/NEXONBazzi.png
+
+@font-face {
+    font-family: 'NEXONBazzi';
+    font-weight: normal; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONBazzi.woff) format('woff');
+    font-display: swap;
+}
+
