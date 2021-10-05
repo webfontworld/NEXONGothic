@@ -1,0 +1,19 @@
+/* 
+    https://webfontworld.github.io/NEXONGothic/Maplestory.css
+    https://webfontworld.github.io/NEXONGothic/Maplestory.png
+    https://wess.tistory.com/200
+*/
+@font-face {
+    font-family: 'Maplestory';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/MaplestoryLight.woff2) format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Maplestory';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/MaplestoryBold.woff2) format('woff2');
+    font-display: swap;
+}

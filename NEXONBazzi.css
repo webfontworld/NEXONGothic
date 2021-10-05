@@ -1,0 +1,9 @@
+/* https://webfontworld.github.io/NEXONGothic/NEXONBazzi.css */
+
+@font-face {
+    font-family: 'NEXONBazzi';
+    font-weight: normal; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONBazzi.woff) format('woff');
+    font-display: swap;
+}
