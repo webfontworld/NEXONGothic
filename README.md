@@ -76,3 +76,25 @@ https://webfontworld.github.io/NEXONGothic/NEXONBazzi.png
 }
 </pre>
 
+
+
+https://webfontworld.github.io/NEXONGothic/NEXONFootballGothic.css<br>
+https://webfontworld.github.io/NEXONGothic/NEXONFootballGothic.png
+
+<pre>
+@font-face {
+    font-family: 'NEXONFootballGothic';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONFootballGothicLA1.woff2) format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NEXONFootballGothic';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONFootballGothicBA1.woff2) format('woff2');
+    font-display: swap;
+}
+</pre>
+
