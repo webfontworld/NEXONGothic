@@ -1,5 +1,7 @@
 # NEXONGothic
 
+https://webfontworld.github.io/NEXONGothic/NEXONLv1Gothic.css
+
 <pre>
 @font-face {
     font-family: 'NEXONLv1Gothic';
