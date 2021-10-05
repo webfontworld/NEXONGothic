@@ -98,3 +98,23 @@ https://webfontworld.github.io/NEXONGothic/NEXONFootballGothic.png
 }
 </pre>
 
+https://webfontworld.github.io/NEXONGothic/Maplestory.css<br>
+https://webfontworld.github.io/NEXONGothic/Maplestory.png
+
+<pre>
+@font-face {
+    font-family: 'Maplestory';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/MaplestoryLight.woff2) format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Maplestory';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/MaplestoryBold.woff2) format('woff2');
+    font-display: swap;
+}
+</pre>
+
