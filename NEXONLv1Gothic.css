@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'NEXONLv1Gothic';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTFLight.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NEXONLv1Gothic';
+    font-weight: 500; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTF.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NEXONLv1Gothic';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTFBold.woff) format('woff');
+    font-display: swap;
+}
