@@ -17,30 +17,38 @@
 
         /* font-face */
         @font-face {
-            font-family: 'NEXONLv1GothicLowOTFLight';
-            font-weight: normal;
-            font-style: normal;
+            font-family: 'NEXONLv1Gothic';
+            font-weight: 300; 
+            font-style: normal; 
             src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTFLight.woff) format('woff');
+            font-display: swap;
         }
         @font-face {
-            font-family: 'NEXONLv1GothicLowOTF';
-            font-weight: normal;
-            font-style: normal;
-            src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTF.woff) format('woff');
+            font-family: 'NEXONLv1Gothic';
+            font-weight: 400; 
+            font-style: normal; 
+            src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicOTF.woff) format('woff');
+            font-display: swap;
         }
         @font-face {
-            font-family: 'NEXONLv1GothicLowOTFBold';
-            font-weight: normal;
-            font-style: normal;
-            src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTFBold.woff) format('woff');
+            font-family: 'NEXONLv1Gothic';
+            font-weight: 700; 
+            font-style: normal; 
+            src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicOTFBold.woff) format('woff');
+            font-display: swap;
         }
-        code, pre {font-family: 'NEXONLv1GothicLowOTFLight';}
-        .weightInput {font-family: 'NEXONLv1GothicLowOTFLight';}
-        .ff {font-family: 'NEXONLv1GothicLowOTFLight';}
+        code, pre {font-family: 'NEXONLv1Gothic';}
+        .weightInput {font-family: 'NEXONLv1Gothic';}
+        .ff {font-family: 'NEXONLv1Gothic';}
+        .fw {font-weight: 300;}
 
-
-        /* start */
         .wf-intro {width: 100%; max-width: 1200px; margin: 0 auto;}
+        .wf-view {width: 100%; max-width: 1200px; margin: 0 auto;}
+        .wf-weight {width: 100%; max-width: 1200px; margin: 0 auto;}
+        .wf-layout {width: 100%; max-width: 1200px; margin: 0 auto;}
+        .wf-size {width: 100%; max-width: 1200px; margin: 0 auto;}
+        .wf-info {width: 100%; max-width: 1200px; margin: 0 auto;}
+        .wf-woff {width: 100%; max-width: 1200px; margin: 0 auto;}
         .weightInput {width: 100%; padding: 20px 40px; margin: 20px 0 10px; background: #f1f1f1; border: 0; border-radius: 50px; font-size: 16px; box-sizing: border-box;}
 
         .wf-intro .info {display: flex; flex-wrap: wrap; justify-content: space-between;}
@@ -83,6 +91,7 @@
         .wf-info .list li::before {content: ""; position: absolute; left: 0; top: 10px; width: 5px; height: 5px; background: #000; border-radius: 50%;}
         .wf-info .list li.line {text-decoration: underline;}
 
+        .wf-weight {}
         .wf-weight h3 {font-size: 34px; margin-top: 40px;}
         .wf-weight li {padding: 60px 0 20px; font-size: 40px; border-bottom: 1px solid #f1f1f1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative;}
         .wf-weight li.wNormal {font-weight: normal;}
@@ -107,6 +116,7 @@
         .wf-weight li.w800::before {content: 'font-weight: 800';}
         .wf-weight li.w900::before {content: 'font-weight: 900';}
 
+        .wf-size {}
         .wf-size h3 {font-size: 34px; margin-top: 100px;}
         .wf-size ul {margin-top: 10px;}
         .wf-size li {position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-left: 60px; line-height: 1.7;}
@@ -128,6 +138,7 @@
         .wf-size li.s56 {font-size: 56px;} .wf-size li.s56::before {content: '56px';}
         .wf-size li.s64 {font-size: 64px;} .wf-size li.s64::before {content: '64px';}
 
+        .wf-layout {}
         .wf-layout h3 {font-size: 34px; margin-top: 100px;}
         .wf-layout h3 span {font-size: 14px; background: #f1f1f1; padding: 3px 20px; border-radius: 20px; margin-right: 5px; vertical-align: 2px; cursor: pointer; font-weight: normal;}
         .wf-layout h3 span.active {background-color: #000; color: #fff;}
@@ -139,6 +150,7 @@
         .wf-layout .flex .col2 {width: 49%}
         .wf-layout .flex .col1 {width: 100%; margin-right: 0;}
 
+        .wf-view {}
         .wf-view h3 {font-size: 34px; margin-bottom: 10px; margin-top: 100px;}
         .wf-view h3 span {font-size: 14px; background: #f1f1f1; padding: 3px 20px; border-radius: 20px; margin-right: 5px; vertical-align: 2px; cursor: pointer; font-weight: normal;}
         .wf-view h3 span.active {background-color: #000; color: #fff;}
@@ -174,6 +186,19 @@
         .wf-view .style .style12::after {background: #F9D8A1;}
         .wf-view .style .style13 {background: #194685;} 
         .wf-view .style .style13::after {background: #FAFA54;}
+
+        .wf-woff {margin-top: 80px;} 
+        .wf-woff h3 {font-size: 34px; margin-bottom: 20px; margin-top: 40px;}
+        .wf-woff table {border-spacing: 0; border-top: 1px solid #dadce0; line-height: 1.4;}
+        .wf-woff table th {padding: 14px; background-color: #e8f2ff; border-bottom: 1px solid #dadce0; border-right: 1px solid #dadce0; text-align: left;}
+        .wf-woff table td {padding: 14px; border-bottom: 1px solid #dadce0; border-right: 1px solid #dadce0}
+        .wf-woff table td:last-child {border-right: 0;}
+        .wf-woff table tr.last td {border-bottom: 2px solid #000;}
+        .wf-woff table tr.last th {border-bottom: 2px solid #000;}
+        .wf-woff table .line {border-bottom: 2px solid #000; text-align: center;}
+        .wf-woff table .ce {text-align: center;}
+        .wf-woff table .bg {background-color: #f5f5f5;}
+        .wf-woff table small {display: block;}
     </style>
 </head>
 <body>
@@ -231,9 +256,12 @@
                 </div>
                 <div class="cont">
                     <div>
-<pre><code>font-family: 'NEXONLv1GothicLowOTFLight';<br>
-font-family: 'NEXONLv1GothicLowOTF';<br>
-font-family: 'NEXONLv1GothicLowOTFBold';
+<pre><code>font-family: 'NEXONLv1Gothic';
+
+/* 폰트 두께 */
+font-weight: 300;
+font-weight: 400;
+font-weight: 700;
 </code></pre>
                     </div>
                     <div>
@@ -244,22 +272,25 @@ font-family: 'NEXONLv1GothicLowOTFBold';
                     </div>
                     <div>
 <pre><code>@font-face {
-    font-family: 'NEXONLv1GothicLowOTFLight';
-    font-weight: normal;
+    font-family: 'NEXONLv1Gothic';
+    font-weight: 300;
     font-style: normal;
     src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTFLight.woff) format('woff');
+    font-display: swap;
 }
 @font-face {
-    font-family: 'NEXONLv1GothicLowOTF';
-    font-weight: normal;
+    font-family: 'NEXONLv1Gothic';
+    font-weight: 400;
     font-style: normal;
-    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTF.woff) format('woff');
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicOTF.woff) format('woff');
+    font-display: swap;
 }
 @font-face {
-    font-family: 'NEXONLv1GothicLowOTFBold';
-    font-weight: normal;
+    font-family: 'NEXONLv1Gothic';
+    font-weight: 700;
     font-style: normal;
-    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicLowOTFBold.woff) format('woff');
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/NEXONGothic/NEXONLv1GothicOTFBold.woff) format('woff');
+    font-display: swap;
 }
 </code></pre>
                     </div>
@@ -492,6 +523,300 @@ font-family: 'NEXONLv1GothicLowOTFBold';
                 <li>서체를 사용한 인쇄물, 광고물(온라인 포함)은 넥슨의 프로모션을 위해 활용될 수 있습니다.</li>
                 <li class="line">제공되는 모든 서체의 지적 재산권을 포함한 모든 권리는 제작사에 있으니, 사용하기 전에 제작사 사이트에 가셔서 꼭 확인하시길 바랍니다.</li>
             </ul>
+        </div>
+
+        <hr>
+
+        <div class="wf-woff ff">
+            <h3 class="fw">폰트 파일</h3>
+            <table class="fw">
+                <colgroup>
+                    <col style="width: 5%" />
+                    <col style="width: 10%" />
+                    <col style="width: 15%" />
+                    <col style="width: 5%" />
+                    <col style="width: 5%" />
+                    <col style="width: 60%" />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th rowspan="30" class="ce fw">넥슨</th>
+                        <th rowspan="5" class="ce fw">넥슨 LV.1 고딕</th>
+                        <td rowspan="5" class="ce">
+                            font-weight: 300<br> 
+                            font-weight: 400<br>
+                            font-weight: 700
+                        </td>
+                        <td class="ce">woff</td>
+                        <td class="ce bg">433KB<br>443KB<br>461KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLight.woff<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicRegular.woff<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicBold.woff
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">woff2</td>
+                        <td class="ce bg">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">eot</td>
+                        <td class="ce bg">395KB<br>407KB<br>419KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLight.eot<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicRegular.eot<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicBold.eot
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">ttf</td>
+                        <td class="ce bg">1.9MB<br>1.9MB<br>1.8MB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLight.ttf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicRegular.ttf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicBold.ttf
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">otf</td>
+                        <td class="ce bg">882KB<br>878KB<br>897KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLight.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicRegular.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicBold.otf
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="5" class="ce fw">넥슨 LV.1 고딕 <small>저용량 버전</small></th>
+                        <td rowspan="5" class="ce">
+                            font-weight: 300<br>
+                            font-weight: 400<br>
+                            font-weight: 700
+                        </td>
+                        <td class="ce">woff</td>
+                        <td class="ce bg">157KB<br>159KB<br>160KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowLight.woff<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowRegular.woff<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowBold.woff
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">woff2</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">eot</td>
+                        <td class="ce bg">148KB<br>150KB<br>150KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowLight.eot<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowRegular.eot<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowBold.eot
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">ttf</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">otf</td>
+                        <td class="ce bg">251KB<br>254KB<br>258KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowLight.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowRegular.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv1GothicLowBold.otf
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th rowspan="5" class="ce fw">넥슨 LV.2 고딕</th>
+                        <td rowspan="5" class="ce">
+                            font-weight: 300<br>
+                            font-weight: 400<br>
+                            font-weight: 500<br>
+                            font-weight: 600
+                        </td>
+                        <td class="ce">woff</td>
+                        <td class="ce bg">704KB<br>741KB<br>729KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicLight.woff<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2Gothic.woff<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicBold.woff<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">woff2</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">eot</td>
+                        <td class="ce bg">633KB<br>668KB<br>654KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicLight.eot<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2Gothic.eot<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicBold.eot<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">ttf</td>
+                        <td class="ce bg">2.4MB<br>2.4MB<br>2.4MB<br>2.4MB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicLight.ttf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicMedium.ttf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2Gothic.ttf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicBold.ttf<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">otf</td>
+                        <td class="ce bg">1MB<br>993KB<br>1MB<br>1MB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicLight.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicMedium.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2Gothic.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonLv2GothicBold.otf<br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="5" class="ce fw">넥슨 배찌체</th>
+                        <td rowspan="5" class="ce">
+                            font-weight: normal
+                        </td>
+                        <td class="ce">woff</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">woff2</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">eot</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">ttf</td>
+                        <td class="ce bg">1.4MB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonBazzi.ttf
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">otf</td>
+                        <td class="ce bg">672KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonBazzi.otf
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="5" class="ce fw">넥슨 풋볼 고딕체</th>
+                        <td rowspan="5" class="ce">
+                            font-weight: 400<br>
+                            font-weight: 700
+                        </td>
+                        <td class="ce">woff</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">woff2</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">eot</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">ttf</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">otf</td>
+                        <td class="ce bg">632KB<br>643KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonFootballGothicLight.otf
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonFootballGothicBold.otf
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="5" class="ce fw">넥슨 메이플스토리체</th>
+                        <td rowspan="5" class="ce">
+                            font-weight: 400<br>
+                            font-weight: 700
+                        </td>
+                        <td class="ce">woff</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">woff2</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">eot</td>
+                        <td class="ce">-</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">ttf</td>
+                        <td class="ce bg">1.4MB<br>1.4MB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonMaplestoryLight.ttf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonMaplestoryBold.ttf
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ce">otf</td>
+                        <td class="ce bg">677KB<br>698KB</td>
+                        <td>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonMaplestoryLight.otf<br>
+                            https://cdn.jsdelivr.net/gh/webfontworld/nexon/NexonMaplestoryBold.otf
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
     <!-- //webfontworld -->
